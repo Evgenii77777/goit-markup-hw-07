@@ -1,0 +1,47 @@
+.wrap {
+  background-color: $secondary-fone-color;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  color: $secondary-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.section-title.team {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.list.option.team {
+  margin-bottom: 0;
+  background-color: $secondary-fone-color;
+}
+
+.profession {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+  background-color: $primary-fone-color;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  width: 270px;
+}
+
+.carts {
+  width: 270px;
+  background-color: $primary-fone-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
