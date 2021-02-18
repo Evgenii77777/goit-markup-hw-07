@@ -1,5 +1,6 @@
 @import "./utils/normalize";
-@import "./utils/fonts" @import "./utils/variables";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap");
+@import "./utils/variables";
 @import "./common-styles";
 @import "./components/_page-header";
 @import "./components/hero";
